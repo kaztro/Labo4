@@ -23,30 +23,49 @@ div header h3 span {
     display: inline;
 }
 
-.firstHeader {
+h3.firstHeader {
     display: inline;
 }
 
-.theFirstOne {
+header.theFirstOne {
     border-bottom: #f56a6a solid 0.3em;
-}
-
-.divS{
     display: flex;
+    justify-content: space-between;
 }
 
-.divP {
+
+div.imagewe {
     display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
-.SN {
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    flex: 0 1 auto;
+img {
+    border-radius: 0.6em;
+    width: 29em;
+    height: 24em;
+}
+
+ul.UL {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     list-style: none; 
+    align-content: space-between;
 }
-/*
-flex-wrap: wrap;
-    justify-content: flex-end;
-    flex: 0 1 auto;
-    list-style: none;*/
+
+div.divS header div.right {
+    height: 35em;
+    width: 35em;
+    display: inline;
+    justify-content: left;
+    align-items : baseline;
+}
+
+div.divS header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
